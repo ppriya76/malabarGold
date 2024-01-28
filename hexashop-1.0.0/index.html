@@ -26,21 +26,12 @@
     <script src="https://assets.adobedtm.com/08c6c96e8270/d762f21224f9/launch-7c53e2cd27c8-development.min.js" async></script>
 
   <script type="text/javascript">
-   digitalData = {
- pageInstanceID: "MyHomePage-Production",
- page:{
- pageInfo: {
- pageID: "Home Page",
- destinationURL: "http://mysite.com/index.html"},
- category:{
- primaryCategory: "FAQ Pages",
- subCategory1: "ProductInfo",
- pageType: "FAQ"},
- attributes:{
- country: "US",
- language: "en-US"}
- }
- };
+   window.dataLayer = window.dataLayer || []
+    dataLayer.push({
+      "event" : "pageLoad",
+      "page" : {
+        "pageName" : "homePage",
+      }});
 
     </script>
   
